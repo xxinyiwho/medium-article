@@ -1,0 +1,33 @@
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+body {
+  font-family: 'Lora', serif;
+  font-weight: lighter;
+  line-height: 1.6;
+  font-size: 18px;
+  display: block;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+.banner {
+  background-image: url(https://source.unsplash.com/random);
+  background-size: cover;
+  padding: 120px 0;
+  color: white;
+}
+
+.content {
+  color: rgb(174, 175, 176);
+}
+
+p {
+  color: rgba(0,0,0,0.7);
+}
